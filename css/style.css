@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -13,11 +12,17 @@ html {
     font-size: 62.5%;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     width: 100%;
-    height: 100vh;
     overflow-y: hidden;
-    background-color: rgb(5, 30, 46);
+    background-image: url('../images/anh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
 }
 
@@ -27,9 +32,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
-    background-color: transparent;
-    filter: drop-shadow(10px);
+    padding: 2rem 9%;
+    margin: 0; 
+    background-color: rgba(0, 0, 0, 0.3);
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.5));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +56,7 @@ nav a {
 }
 
 nav a.active {
-    color:aqua;
+    text-decoration: underline;
 }
 
 section {
@@ -65,60 +71,46 @@ section {
     gap: 8rem;
 }
 
+.home-content {
+    flex: 1;
+}
+
+.home-blank {
+    flex: 1;
+}
+
 .home .home-content h1{
-    font-size: 7rem;
+    font-size: 9rem;
     font-weight: 700;
     line-height: 1.3;
 }
 
-span {
-    color:aqua;
-}
-
 .home-content h2 {
-    font-size: 4rem;
+    font-size: 7rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 
 .home-content p {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin-top: 3rem;
-}
-
-.home-image {
-    border-radius: 50%;
-}
-
-.home-image img {
-    position : relative;
-    width: 64vh;
-    box-shadow: 0 0 25px solid rgb(11, 60, 91);
-    border-radius: 25%;
-}
-
-.social-icon a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background-color: transparent;
-    border: 0.2rem solid aqua;
     font-size: 2rem;
-    border-radius: 50%;
-    margin: 3rem 1rem 3rem;
-    color: aqua;
+    font-weight: 500;
+    margin-bottom: 4rem;
 }
 
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
-    background-color: aqua;
     border-radius: 4rem;
     font-size: 1.6rem;
-    color: black;
+    color: white;
     font-weight: 600;
     border: 2px solid;
+    margin-right: 2rem;
+}
+
+.mail {
+    font-size: 1.6rem;
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
 }
