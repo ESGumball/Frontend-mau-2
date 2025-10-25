@@ -2,7 +2,7 @@
 Bài luyện tập FE đơn giản sử dụng HTML và CSS
 
 ## DEMO
-Xem website tại: [https://esgumball.github.io/FrontEnd-m-u-1/]
+Xem website tại: [https://esgumball.github.io/Frontend-mau-2/]
 
 ## Cách chạy
 Chỉ cần mở file `index.html` bằng trình duyệt.
