@@ -48,6 +48,10 @@ header {
     font-weight: 800;
 }
 
+.logo:hover {
+    transform: scale(1.5);
+}
+
 nav a {
     font-size: 1.8rem;
     color: white;
@@ -55,8 +59,13 @@ nav a {
     font-weight: 500;
 }
 
-nav a.active {
+.ori-nav a:hover,
+.ori-nav a.active {
     text-decoration: underline;
+}
+
+.Find:hover {
+    transform: scale(1.5);
 }
 
 section {
@@ -113,4 +122,15 @@ section {
     font-style: italic;
     text-decoration: underline;
     color: white;
+}
+
+.mail:hover {
+    color: black;
+}
+
+.btn:hover {
+    transform: scale3d(1.03);
+    background-color: black;
+    color: white);
+    box-shadow: 0 0 25px aqua;
 }
